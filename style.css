@@ -106,6 +106,7 @@ main {
   height: 90vh;
   width: 100%;
   background: #f7f8f9;
+  display: flex;
 }
 
 /* LEFT SIDE NAVBAR DESIGN */
@@ -202,4 +203,85 @@ main {
 
 .category-box a:hover {
   filter: grayscale(0%);
+}
+
+/* MIDDLE SECTION */
+.middle-section {
+  height: 90vh;
+  width: 50%;
+}
+
+.title-name {
+  height: 4rem;
+  width: 80%;
+  margin: 2rem 7rem 1rem 7rem;
+}
+
+.title-name h1 {
+  font-size: 3rem;
+  font-family: fantasy;
+  color: #000000;
+}
+
+.post-image > img {
+  height: 24rem;
+  width: 80%;
+  margin: 4rem 7rem 2rem 7rem;
+
+  border-radius: 2rem;
+  object-fit: cover;
+}
+
+.desc-section {
+  height: 5rem;
+  width: 80%;
+  margin: 0 7rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.congres-box {
+  height: 3rem;
+  width: 8rem;
+  border-radius: 4rem;
+  background: #faf1f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d51335;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-left: 4rem;
+  cursor: pointer;
+}
+
+.desc-informations {
+  height: 100%;
+  width: 38%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.icon {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.icon p {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #0a0a0a;
+}
+
+.icon img {
+  height: 22px;
+  width: 22px;
+  margin-right: 0.5rem;
 }
